@@ -1,8 +1,7 @@
-from distutils.command.upload import upload
-from email.policy import default
-from typing_extensions import Self
-from django.db import models
+"""docstring"""
+
 from django.contrib.auth import get_user_model
+from django.db import models
 
 User = get_user_model()
 

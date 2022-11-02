@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('bio', models.TextField(blank=True)),
                 ('profileimg', models.ImageField(default='blank_profile_pic.jpg', upload_to='profile_images')),
                 ('location', models.TextField(blank=True, max_length=100)),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,to=settings.AUTH_USER_MODEL)),
             ],
         ),
     ]
